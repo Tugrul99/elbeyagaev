@@ -5,13 +5,13 @@ paceOptions = {
 };
 
 Pace.on('done', function () {
-  $('.p').delay(700).animate({ top: '30%', opacity: '0' }, 3000, $.bez([0.19, 1, 0.22, 1]));
+  $('.p').delay(150).animate({ top: '30%', opacity: '0' }, 3000, $.bez([0.19, 1, 0.22, 1]));
 
 
-  $('#preloader').delay(1700).animate({ top: '-100%' }, 2000, $.bez([0.19, 1, 0.22, 1]));
+  $('#preloader').delay(150).animate({ top: '-100%' }, 2000, $.bez([0.19, 1, 0.22, 1]));
 
   TweenMax.from(".title", 2, {
-    delay: 1.8,
+    delay: 0.5,
     y: 10,
     opacity: 0,
     ease: Expo.easeInOut
