@@ -146,19 +146,21 @@ body {
   .master-img {
     height: auto !important;
   }
+
   .master {
     display: flex;
     justify-content: start !important;
     align-items: center;
     padding-top: 20px;
-  
-  
-  
+
+
+
   }
+
 
 }
 
-@media (max-width: 718px) {
+@media (min-width: 700px) {
   .img-text {
     z-index: 1500;
     font-size: 2rem !important;
@@ -175,9 +177,23 @@ body {
 
   }
 
+  .main-img {
+    max-width: 100%;
+    height: auto !important;
+    margin-top: 60px;
+    filter: brightness(0.7);
+    z-index: 20;
+    object-fit: cover !important;
+    object-position: center !important;
+
+
+
+
+  }
+
 }
 
-@media (max-width: 463px) {
+@media (max-width: 700px) {
   .img-text {
     z-index: 1500;
     font-size: 1rem !important;
@@ -326,7 +342,7 @@ a.nav-link:hover {
 
 a {
 
- 
+
   color: black !important;
 }
 
@@ -418,6 +434,8 @@ p {
 /* ELBEY IMG MAIN */
 
 
+
+
 .main-img {
   max-width: 100%;
   height: auto;
@@ -448,7 +466,7 @@ p {
 
 }
 
-.shadow{
+.shadow {
   filter: brightness(0.7);
 }
 
@@ -557,6 +575,9 @@ p {
 
 
 
+}
+.wshop-vid{
+  filter: brightness(0.8);
 }
 
 /* COURSE SECTION START */
@@ -673,7 +694,8 @@ p {
 
 
 }
-#mastersecond{
+
+#mastersecond {
   background-color: #222222;
   padding: 7% 10%;
 }
@@ -702,13 +724,13 @@ p {
   font-size: 40px !important;
 }
 
-.mastersstxt{
+.mastersstxt {
   color: white;
   font-size: x-large;
   font-family: 'Instrument Serif', serif;
- 
 
-  
+
+
 }
 
 .number {
@@ -730,11 +752,12 @@ p {
 }
 
 /* KOLEKSIYON */
-.gallery{
-  padding: 10% 8% ;
+.gallery {
+  padding: 10% 8%;
   background-color: #222222;
 }
-.koleksiyontext{
+
+.koleksiyontext {
   text-decoration: none !important;
-  
+
 }
